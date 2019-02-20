@@ -1,0 +1,411 @@
+// Place all the styles related to the simple_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {  font-family: 'Roboto Condensed', sans-serif !important;
+}
+html, body {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+  color: #3d4246;
+  line-height: 1.5;
+  overflow-x: hidden;
+  height: 100%;
+}
+body {
+  // padding-top: 90px;
+}
+section {
+  padding: 190px 0;
+}
+.center {
+  text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+.caps {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 59px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+p {
+  color: #69727b;
+margin: 0 0 19.44444px;
+}
+footer {
+  height: 90px;
+  margin: 0;
+  padding: 3%;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ----------------NAV-------------------NAV--------------------NAV-----------------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+// .nav-divide {
+//   width: 50px;
+// }
+// .nav-container {
+//   width: 100%;
+//   margin: 0 auto;
+// }
+.active {
+  // font-size: 24px;
+  line-height: 20px;
+  color: #93CB56;
+}
+a:hover, .active:hover {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0 0 5px grey;
+  // background-color: rgba(0,0,0,0);
+}
+.active:hover {
+  color: #93CB56;
+  text-shadow: 0 0 5px darkgrey;
+
+}
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  transform: scale(.8) translateX(-50px);
+}
+.nav-right{
+  padding-left: 40px;
+}
+nav {
+  // max-height: 90px !important;
+  text-transform: uppercase;
+  // max-height: 70px;
+}
+.nav-container {
+  position: relative;
+
+}
+// .navbar {
+//   padding: 0;
+// }
+.navbar-toggler {
+  // position: absolute;
+}
+.logo {
+  transform: scale(1);
+  height: 80px;
+}
+.animate-logo {
+  animation: scaleEffect .5s 1 ease-in;
+}
+
+@keyframes scaleEffect {
+  0%   {transform: scale(1) translateX(0px);}
+  50%   {transform: scale(.8) translateX(-25.5px);}
+  100% {transform: scale(1) translateX(0px);}
+}
+
+.nav-link {
+  letter-spacing: 2px;
+  text-align: center;
+  // margin-left: 20px;
+  // -webkit-transition: margin 0.5s;
+  //  -moz-transition: margin 0.5s;
+  //    -o-transition: margin 0.5s;
+        // transition: margin 0.5s;
+}
+
+.active2 {
+
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ----------------HOME -------------------HOME --------------------HOME -----------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+#home {
+  max-height: 700px;
+  text-transform: uppercase;
+  color: white;
+  // margin-top: -150px;
+  padding-top: 90px;
+  overflow-y:hidden;
+  overflow-x:visible;
+
+}
+#home h1{
+  // font-weight: 900;
+  // font-size: 90px;
+  // letter-spacing: 5px;
+  // width:100%;
+  font-size: 11vw;
+  /* max-block-size: min-content; */
+  font-weight: 900;
+  letter-spacing: .5vw;
+  margin-top: -46px;
+  float: left;
+}
+#home h2 {
+  font-weight: 500;
+  // margin-left: 11.5vw;
+  font-size: 7vw;
+  float: none;
+    position: relative;
+    right: 8.5vw;
+    top: -2vw;
+}
+// .cover {
+//   width: 100%;
+//   height: 100%;
+//   ;
+// }
+.centered {
+  position: absolute;
+  top: 0%;
+  margin-top: 200px;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+}
+.container-home {
+  position: relative;
+  text-align: center;
+  color: white;
+  // max-height: 600px;
+}
+.home-thumbnail {
+  position: relative;
+    top: -26vw;
+    transform: scale(0.6, 0.6) rotate(90deg);
+    left: 25vw;
+    width: 53vw;
+}
+.home-img {
+  margin-top: -118px;
+  width: 177%;
+  margin-left: -76px;
+  z-index: 0;
+}
+#home div.cover {
+
+}
+#home button {
+  position: relative;
+left: 39vw;
+top: -17vw;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 2vw;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ----------------ABOUT-------------------ABOUT--------------------ABOUT-----------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+  #about h1, #about p, #about img, #about div{
+
+  }
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ------------- CONTACT--------------- CONTACT----------------  CONTACT------------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+}
+#contact {
+  margin-top: 124px;
+}
+.social-icons-inline i {
+    font-size: 25px;
+    margin: 0 7px;
+    background: black;
+    color: white;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.contact-left {
+  margin: 3% auto;
+}
+#contact .form-control {
+  padding: 23px 18px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #333;
+    border-radius: 5px;
+}
+#contact h2 {
+  font-size: 33px;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 55px;
+    margin-bottom: 27.5px;
+}
+#contact #message {
+  height: 10vw;
+}
+.bg-left {
+  position: relative;
+    right: 350px;
+    top: 352px;
+    transform: scale(.5,.5) rotate(-65deg);
+}
+.bg-drip {
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ------------- PRODUCTS- ------------- PRODUCTS- -------------  PRODUCTS- --------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+// #moonrocks h1, #moonrocks p, #moonrocks img, #moonrocks div{
+//   &.title-lt{
+//     position: relative;
+//     top: 89px;
+//     // right: 200px;
+//     margin-right: 10%;
+//     border-bottom: 15px solid ##93CB56;
+//     margin-bottom: -19px;
+//   }
+//   &.content{
+//     font-weight: 300 !important;
+//     text-align: justify;
+//     padding: 53px;
+//     border: 15px solid black;
+//     position: relative;
+//     // top: 180px;
+//     width: 630px;
+//     height: 414px;
+//     margin-right: 5%;
+//     line-height: 1.6;
+//     font-size: 18px;
+//   }
+//   &.graphic{
+//   }
+//   &.container {
+//
+//   }
+// }
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ------------- FOOTER --------------- FOOTER ----------------  FOOTER ------------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+footer {
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+  }
+  footer ul{
+  list-style: none;
+}
+.footer-nav {
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ------------ universal ------------ universal -------------  universal ----------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.title{
+  border-bottom: 15px solid #93CB56;
+  margin-bottom: -88px;
+}
+.content{
+  font-weight: 300 !important;
+  text-align: justify;
+  padding: 53px;
+  border: 15px solid black;
+  position: relative;
+  top: 99px;
+  width: 630px;
+  height: 100%;
+
+  line-height: 1.6;
+  font-size: 18px;
+}
+.graphic{
+}
+.container {
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* ------------ responsive ----------- responsive ------------  responsive ---------*/
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+@media (min-width: 768px) {
+  .navbar {
+    // max-height: 90px;
+  }
+
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .nav-container {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .nav-container {
+    margin-top: -25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+
+  .img-lt {
+    transform: scale(0.45, 0.45) ;
+  }
+  #reflect {
+    -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
+}
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  #about {
+    margin-right: -137px;
+  }
+
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .img-lt {
+    transform: scale(0.6, 0.6) ;
+  }
+  #reflect {
+    -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
+  }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .img-lt {
+    transform: scale(0.75, 0.75) ;
+  }
+  #reflect {
+    -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
+  }
+}

@@ -1,0 +1,152 @@
+#mainContent {
+  position: relative;
+  top: 155px;
+  width: 100%;
+  height: 1000px;
+
+}
+#prod-nav {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 99;
+}
+.prod-info, .prod-content {
+  height: 100%;
+  position: absolute;
+  top:130px;
+  bottom: 0;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.prod-info {
+  left: -1px;
+  background-color: #2ecc71;
+  margin-left: 60px;
+  width: 19.299%;
+}
+/* .prod-btn {
+  padding: 11px;
+
+  border: 2px solid grey;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-size: 16px
+} */
+.prod-btn:nth-of-type(1){
+  /* background: #059033; */
+  background-image: linear-gradient(to top, transparent, #059033);
+  animation-delay: .5s;
+
+}
+.prod-btn:nth-of-type(2) {
+  background-image: linear-gradient(to top, transparent, #93CB56);
+  animation-delay: .75s;
+
+  /* background: #93CB56; */
+}
+.prod-btn:nth-of-type(3) {
+  background-image: linear-gradient(to top, transparent, #7BAA47);
+  animation-delay: 1s;
+
+  /* background: #7BAA47; */
+}
+.prod-btn:nth-of-type(4) {
+  background-image: linear-gradient(to top, transparent, #355A20);
+  animation-delay: 1.25s;
+
+  /* background: #355A20; */
+}
+@keyframes animateProdNav {
+  from {
+    top: 0px;
+
+  }
+  to {
+    top: 96px;
+
+  }
+}
+/* .a-1 {
+  animation-delay: .5s;
+}
+.a-2 {
+  animation-delay: .75s;
+}
+.a-3 {
+  animation-delay: 1s;
+}
+.a-4 {
+  animation-delay: 1.25s;
+} */
+div.prod-btn > a{
+
+}
+.prod-btn{
+  animation-duration: .5s;
+  animation-name: animateProdNav;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.prod-btn {
+  /* margin-top: 96px; */
+
+  padding: 15px 10px;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-bottom: none;
+}
+.prod-btn:hover {
+   border-top-color: #035704;
+   background: #035704;
+   color: #ccc;
+   }
+.prod-btn:active {
+   border-top-color: #0c4222;
+   background: #0c4222;
+   }
+
+.prod-content {
+
+}
+.scroll-y {
+  position: relative;
+  overflow-y: scroll;
+}
+.moonrock-img {
+  transform: scale(.5);
+  opacity: .5;
+  border-radius: 297px;
+}
+.text-small {
+  font-size: 12px;
+}
+#moonrock-content .rise, #moonrock-content .slumber {
+  width: 100%;
+
+  /* border: 5px solid black; */
+}
+#moonrock-content .moonrock-img {
+transform: scale(.6) translateY(-113px);
+}
+.card-body{
+  position: relative;
+  bottom: 117px;
+}
+p.card-text {
+  font-size: 16px;
+}
+.card h1 {
+  POSITION: relative;
+  bottom: 388px;
+  left: 61px;
+  transform: rotate(-34deg);
+  font-weight: 600;
+  font-size: 56px;
+  color: black;
+  text-shadow: 2px 2px 2px lightblue;
+  opacity: .4;
+}
+}
