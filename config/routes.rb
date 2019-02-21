@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'products/rocks'
+  get 'products/rosin'
+  get 'products/flower'
+  get 'products/carts'
   get 'simple_pages/index'
   get 'simple_pages/products'
   get 'simple_pages/contact'

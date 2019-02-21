@@ -16,7 +16,31 @@
 //= require jquery3
 //= require_tree ./channels
 
+
 $(document).on('turbolinks:load', function(){
+  // $('.scroll').click(function() {
+  //   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  //     var target = $(this.hash);
+  //     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  //     if (target.length) {
+  //       $('html,body').animate({
+  //         scrollTop: target.offset().top - 160
+  //       }, 500);
+  //       return false;
+  //     }
+  //   }
+  // });
+  // $('a[href*=#]:not([href=#])').click(function() {
+  //       var target = $(this.hash);
+  //       target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+  //       if (target.length) {
+  //           $('html,body').animate({
+  //             scrollTop: target.offset().top
+  //           }, 1000);
+  //           return false;
+  //       }
+  //   });
+
   function animateNav() {
     $('.nav-link').animate({letterSpacing: '0px'}, 250, function(){
       $('.nav-link').animate({letterSpacing: '2px', color: 'green'}, 250);
@@ -31,7 +55,17 @@ $(document).on('turbolinks:load', function(){
   animateNav();
 
   function animateProdNav() {
-    $('.prod-btn').addClass('slideDown');
+    $('.prod-link').addClass('slideDown');
   }
   animateProdNav();
+
+
+  // var scene = document.getElementById('scene');
+  // var parallaxInstance = new Parallax(scene);
+});
+
+
+$( document ).ready(function() {
+
+
 });

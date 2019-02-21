@@ -1,0 +1,102 @@
+<div id="prod-nav">
+	<div class="container">
+		<div class="row text-center">
+      <div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/rocks_content')%>"'>
+				<a  href='#rocks_content' class='active2 scroll' >
+					<div class="prod-link rocks-btn" >
+						MOONROCKS
+					</div>
+				</a>
+			</div>
+      <div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/rosin_content')%>"'>
+				<a  href='#rosin_content' class='scroll' >
+					<div class="prod-link rosin" href=''>
+						ROSIN
+					</div>
+				</a>
+			</div>
+      <div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/flower_content')%>"'>
+				<a  href='#flower_content' class="scroll">
+					<div class="prod-link flower" href="">
+						FLOWER
+				  </div>
+				</a>
+		  </div>
+      <div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/carts_content')%>"'>
+				<a href='#carts_content'  class='scroll' >
+					<div class="prod-link carts" href=''>
+						CARTRIDGES
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="mainContent" class="">
+		<div id="rocks_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-8">
+						<h1 class="title float-left">moonrocks</h1>
+						<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							<button class="btn btn-primary mt-3" type="button" name="button">Learn More</button>
+						</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<%= image_tag('products/moonrock.png', id: "", class: "mx-auto moonrock-img img-fluid") %>
+					</div>
+				</div><!-- /row-->
+			</div>
+		</div>
+
+		<div id="rosin_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-8">
+						<h1 class="title float-left">moonrocks</h1>
+						<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							<button class="btn btn-primary mt-3" type="button" name="button">Learn More</button>
+						</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<%= image_tag('products/moonrock.png', id: "", class: "mx-auto moonrock-img img-fluid") %>
+					</div>
+				</div><!-- /row-->
+			</div>
+		</div>
+
+		<div id="flower_content">
+			<div class="container">
+ 				<div class="row">
+ 					<div class="col-sm-12 col-md-8">
+ 						<h1 class="title float-left">moonrocks</h1>
+ 						<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ 							<button class="btn btn-primary mt-3" type="button" name="button">Learn More</button>
+ 						</p>
+ 					</div>
+ 					<div class="col-sm-12 col-md-4">
+ 						<%= image_tag('products/moonrock.png', id: "", class: "mx-auto moonrock-img img-fluid") %>
+ 					</div>
+ 				</div><!-- /row-->
+ 			</div>
+		</div>
+
+		<div id="carts_content">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-8">
+						<h1 class="title float-left">moonrocks</h1>
+						<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							<button class="btn btn-primary mt-3" type="button" name="button">Learn More</button>
+						</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<%= image_tag('products/moonrock.png', id: "", class: "mx-auto moonrock-img img-fluid") %>
+					</div>
+				</div><!-- /row-->
+			</div>
+		</div>
+
+</div>

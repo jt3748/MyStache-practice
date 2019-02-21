@@ -1,17 +1,17 @@
 <div id="prod-nav">
 	<div class="container">
 		<div class="row text-center">
-			<div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/moonrocks_content')%>"'>
-				<a  class=' active2' >MOONROCKS</a>
+			<div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/rocks_content')%>"'>
+				<div  class='prod-link active2' >MOONROCKS</div>
 			</div>
 			<div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/rosin_content')%>"'>
-				<a  class='' >ROSIN</a>
+				<div  class='prod-link' >ROSIN</div>
 			</div>
 			<div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/flower_content')%>"'>
-				<a  class='' >FLOWER</a>
+				<div  class='prod-link' >FLOWER</div>
 			</div>
-			<div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/cart_content')%>"'>
-				<a  class='' >CARTRIDGES</a>
+			<div class="col-3 prod-btn" onclick='document.getElementById("mainContent").innerHTML = "<%=escape_javascript(render 'partials/content/carts_content')%>"'>
+				<div  class='prod-link' >CARTRIDGES</div>
 			</div>
 		</div>
 	</div>
@@ -19,7 +19,7 @@
 
 
 <div id="mainContent" class="">
-		<%= render 'partials/content/moonrocks_content'%>
+		<%= render 'partials/content/rocks_content'%>
 
 	</div>
 </div>
